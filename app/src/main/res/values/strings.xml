@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BookApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="search">PRONJUŠKAJ</string>
+    <string name="hint">Unesite naziv knjige ili naziv autora</string>
+    <string name="description_image_view">Template for  the image</string>
+    <string name="description_divider">Divider</string>
+    <string name="Failed_to_Load_data">Molimo vas da provjeriti vašu internetsku vezu</string>
+    <string name="NO_RESULT">Nema rezultata</string>
+
+    <!--INFORMACIJE O KNJIZI-->
+    <string name="book_title">Book Title :</string>
+    <string name="book_title_from_db">Book Title</string>
+    <string name="category">Category :</string>
+    <string name="category_from_db">Category</string>
+    <string name="author">Author :</string>
+    <string name="author_from_db">Author</string>
+    <string name="publish_date">Publish date :</string>
+    <string name="publish_date_from_db">Publish Date</string>
+    <string name="average_rating">Average rating :</string>
+    <string name="average_rating_from_db">Average Rating</string>
+    <string name="ratings_count">Ratings count :</string>
+    <string name="ratings_count_from_db">Ratings count</string>
+    <string name="maturity_rating">Maturity rating :</string>
+    <string name="maturity_rating_from_db">Maturity rating</string>
+    <string name="add_book_to_your_favorites">Add book to your favorites</string>
+    <string name="info">Info</string>
+    <string name="book_description">Book Description</string>
+    <!--INFORMACIJE O KNJIZI-->
+
+    <!--Tabovi-->
+    <string name="pretraga_po_nazivu_knjige">Pretraga po nazivu knjige</string>
+    <string name="pretraga_po_nazivu_autoru">Pretraga po nazivu autoru</string>
+    <string name="moji_favoriti">Moji favoriti</string>
+    <!--Tabovi-->
+
+    <!--Tabovi...autor...naziv_knjige-->
+    <string name="ovdje_upisite_trazeni_naziv_autora">Ovdje upišite traženi naziv autora!</string>
+    <string name="pronjuskaj_knjigu">Pronjuškaj</string>
+    <string name="ovdje_upisite_trazeni_naziv_knjige">Ovdje upišite traženi naziv knjige!</string>
+    <string name="pronjuskaj_autora">Pronjuškaj</string>
+    <!--Tabovi...autor...naziv_knjige-->
+
+
+</resources>

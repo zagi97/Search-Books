@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    tools:context=".Activity.BookSearchActivity">
+
+    <include
+        android:id="@+id/toolbar_search"
+        layout="@layout/toolbar"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f0f4">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabBookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pretraga_po_nazivu_knjige" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabBookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pretraga_po_nazivu_autoru" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabBFavoriteBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moji_favoriti" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpBookPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilUpisPodataka"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_weight="0.5"
+            android:inputType="textNoSuggestions">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietUpisPodataka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:hint="Ovdje upišite traženi naziv knjige ili autora!" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnPretraga"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:text="Pronjuškaj"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff0000" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvListaKnjiga"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/book_information" />
+    </LinearLayout>
+
+-->
+</LinearLayout>
